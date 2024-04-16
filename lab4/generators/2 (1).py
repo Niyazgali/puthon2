@@ -3,5 +3,5 @@ def fun(n):
         yield i
 
 n = int(input())
-eN = fun(n)
-print(*eN, sep=", ")
+N = fun(n)
+print(*N, sep=", ")

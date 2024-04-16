@@ -2,7 +2,7 @@
 
 import re
 
-with open(r'C:\Users\ASUS\Desktop\pp2\lab5\a.txt', 'r', encoding='utf-8') as file:
+with open(r'C:\Users\User\OneDrive\Рабочий стол\vscode\lab5', 'r', encoding='utf-8') as file:
      g = file.read()
 
 match = re.findall(r"a(bb|bbb)", g)

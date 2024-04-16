@@ -6,7 +6,7 @@ def fun(c):
     return s.lower()
 
 with open(r'C:\Users\ASUS\Desktop\pp2\lab5\a.txt', 'r', encoding='utf-8') as file:
-     g = file.read()
+    g = file.read()
 
 result = fun(g)
 print(result)
