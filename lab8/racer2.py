@@ -46,11 +46,12 @@ while run:
     if keys[pygame.K_LEFT]:
         x -= 10
 
-    if cars_y == 600:
+    if cars_y < 600:
+        cars_y += sp
+        
+    else:
         cars_y = 0
         cars_x = random.randint(40, 320)
-    else:
-        cars_y += sp
         
     if coin_y < 600:                      #coin
         coin_y += SPEED
